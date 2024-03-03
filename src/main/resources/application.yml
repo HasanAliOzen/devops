@@ -1,9 +1,9 @@
 # This file is used to configure the application properties.
 spring:
   datasource:
-    url: "jdbc:sqlserver://travula-sql.database.windows.net:1433;database=swe304"
-    username: travula
-    password: 565829489766263779merhaba.
+    url: "jdbc:mysql://localhost:3306/swe304"
+    username: root
+    password: 123456
   jpa:
     hibernate:
       ddl-auto: update
